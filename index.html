@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Treasure Hunt Adventure</h1>
+    <div id="gameContainer">
+        <div id="infoPanel">
+            <button id="easy">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+        </div>
+        <div id="grid"></div>
+        <div id="gameInfo">
+            <p>Time Left: <span id="timer">60</span> seconds</p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <button id="resetGame">Restart Game</button>
+    </div>
+    <div id="hintContainer"></div>
+    <audio id="clickSound" src="click.mp3"></audio>
+    <audio id="treasureSound" src="treasure.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
